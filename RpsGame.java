@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class RpsGame {
     public static void main(String[] args) {
-        do {
+
             int userMove;
             System.out.println("Welcome to Rock, Paper, Scissors!!");
             System.out.println("What's your move? (Enter an integer between 0 to 2)");
@@ -40,6 +40,5 @@ public class RpsGame {
                 System.out.println("Better luck next time!");
             }
         }
-        while ()
-    }
+
 }
