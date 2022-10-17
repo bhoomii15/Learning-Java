@@ -8,11 +8,10 @@ public class bmc {
         int n = sc.nextInt();
         while(n>0){
             arr[n]++;
-            if (n<o){
+            if (n<0){
                 break;
             }
-            System.out.println(getLargest(arr, arr.length));
-        }
+                  }
 
 
     }
