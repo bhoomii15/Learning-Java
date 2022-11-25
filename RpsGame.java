@@ -32,13 +32,12 @@ public class RpsGame {
             }
             if (userMove == 0 && opponentMove == 0 || userMove == 1 && opponentMove == 1 || userMove == 2 && opponentMove == 2) {
                 System.out.println("It's a draw");
-            } else if (userMove == 0 && opponentMove == 1) {
-                System.out.println("You lost");
-            } else if (userMove == 0 && opponentMove == 2 || userMove == 1 && opponentMove == 0 || userMove == 2 && opponentMove == 1) {
-                System.out.println("You won!");
-            } else if (userMove == 1 && opponentMove == 2 || userMove == 2 && opponentMove == 0) {
-                System.out.println("Better luck next time!");
             }
+            else if (userMove == 0 && opponentMove == 2 || userMove == 1 && opponentMove == 0 || userMove == 2 && opponentMove == 1) {
+                System.out.println("You won!");
+            }
+
+            else System.out.println("You lost");
         }
 
 }
